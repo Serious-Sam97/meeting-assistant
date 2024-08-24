@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'calendar' => [
+        'key' => env('CALENDAR_KEY'),
+        'url' => env('CALENDAR_URL'),
+    ],
+    
+    'use_mocks' => env('USE_MOCK_SERVICES', false),
 ];
